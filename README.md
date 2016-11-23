@@ -1,4 +1,4 @@
-### A test that I took when interviewing with price team
+### A test that I took when interviewing with iprice team
 
 ----------
 **input**: a random text
