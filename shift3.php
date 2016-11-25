@@ -20,7 +20,7 @@ function shift($text, $step)
                 break;
             }
 
-            // if $chars[$key+$step] is vowel replace
+            // if $chars[$key+$step] is vowel then replace $char[$key] with $char[$key+$step]
             // else
             //     - replace previous vowel with current one
             //     - update previous vowel idx
