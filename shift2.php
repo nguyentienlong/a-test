@@ -8,6 +8,7 @@ function shift($text, $step)
 
     $vowelIdxArr = [];
 
+    // find $vowels and add to $vowelIdxArr
     // O(n)
     foreach ($chars as $key => $char) {
         if (in_array($char, $vowels)) {
@@ -17,6 +18,7 @@ function shift($text, $step)
 
     // store first vowels into $temp
     $temp = $chars[$vowelIdxArr[0]];
+    // loop through $vowelIdxArr, replace $chars[$index_of_vowels] = $chars[$vowelIdxArr[$index_of_vowels+$step]]
     // O(n)
     foreach ($vowelIdxArr as $k => $v) {
         if($k + $step < count($vowelIdxArr)){ 

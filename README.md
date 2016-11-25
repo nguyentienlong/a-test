@@ -16,7 +16,9 @@ after calling function: this as e tixt
 
 **implementation** 
 
-currently O(n*n)
+in `shift.php` - complexcity is O(n*n)
+
+in `shift2.php` - complexcity is O(n)
 
 run: 
 `php shift.php "this is a text" 1`
